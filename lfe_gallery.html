@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.blink-bg{
+		color: #fff;
+		
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 2s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ background-color: #10c018;}
+		25%		{ background-color: #1056c0;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: #254878;}
+		100%	        { background-color: #04a1d5;}
+	}
+
+
+.h1 {
+  
+  color: black;
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+background-color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: grey;
+}
+.image{
+float:left;
+}
+
+.show {
+  display: block;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="image">
+<img src="lfe_logo.jpg" alt="image" height=70 width=70>
+</div>
+
+<div class="h1">
+
+<p> THAI VEEDU TRUST</p>
+</div>
+
+
+<div class="navbar">
+
+  <a href="index.html">Home</a>
+  <a href="lfe_about.html">About</a>
+<div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Our work
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="lfe_treeplantation.html">Tree plantation</a>
+    <a href="lfe_programs.html">Celebrations</a>
+    <a href="lfe_donation.html">Donation</a>
+    <a href="lfe_fundcollection.html">Fund</a>
+  </div>
+  </div> 
+<a href="lfe_involve.html">Involve</a>
+<a href="lfe_gallery.html">Gallery</a>
+<div class="blink-bg"><a href="lfe_donate.html">Donate</a></div>
+<a href="lfe_contact.html">Contact</a>
+<div class="blink-bg"><a href="lfe_register.html">Register</a></div>
+  
+  
+</div>
+<br>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
+</html>
+
+<br>
+
+
+<html>
+<title>Gallery</title>
+<center>
+<table border=10>
+<tr>
+<td>
+ <img src="Ipd1.jpg" alt="Cinque Terre" width="230" height="200" >
+<br>
+<center>Independence Day celebration</center>
+</td>
+<td>
+  <img src="Ipd3.jpg" alt="Forest" width="230" height="200" >
+<br>
+<center>Donation of plants </center>
+<td>
+<img src="Ipd4.jpg" alt="Northern Lights" width="230" height="200"  >
+<br>
+<center>Independance day plantation</center>
+</td>
+<td>
+ <img src="Ipd5.jpg" alt="Mountains" width="230" height="200"  >
+<br>
+<center>Flag Hoisting Ceremony</center>
+</td>
+<td>
+<img src="Ipd7.jpg" alt="Cinque Terre" width="230" height="200" >
+<br>
+<center>Flag Hoisting Ceremony</center>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+ <img src="Soc1.jpg" alt="Forest" width="230" height="200">
+<br>
+<center>Drainage cleaning in unclean areas</center>
+</td>
+<td>
+ <img src="Soc4.jpg" alt="Mountains" width="230" height="200"> 
+<br>
+<center>Vegetables arranged for donation</center>
+</td>
+<td>
+<img src="Ec1.jpg" alt="Forest" width="230" height="200">
+<br>
+<center>Eye Camp</center>
+</td>
+<td>
+ <img src="Ec2.jpg" alt="Northern Lights" width="230" height="200">
+<br>
+<center>Examining the people's sight</center>
+</td>
+<td>
+ <img src="Ec3.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>Examining the eye sight</center>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+ <img src="Ec5.jpg" alt="Cinque Terre" width="230" height="200">
+<br>
+<center>Honouring the co-presenter</center>
+</td>
+<td>
+  <img src="Do1.jpg" alt="Forest" width="230" height="200">
+<br>
+<center>Donation of Clothes and groceries</center>
+</td>
+<td>
+ <img src="Do2.jpg" alt="Northern Lights" width="230" height="200">
+<br>
+<center>Honouring the co-presenter</center>
+</td>
+<td>
+ <img src="Do3.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>Donating to people in the trust</center>
+</td>
+<td>
+ <img src="Do4.jpg" alt="Cinque Terre" width="230" height="200">
+<br>
+<center>Donation of basic needy products</center>
+</td>
+</tr>
+
+
+<tr>
+<td>
+ <img src="Do5.jpg" alt="Forest" width="230" height="200">
+<br>
+<center>Donation of groceries</center>
+</td>
+<td>
+  <img src="Do7.jpg" alt="Northern Lights" width="230" height="200">
+<br>
+<center>Caring the trust</center>
+</td>
+<td>
+ <img src="Nv1.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>Nilavembu Kashayam</center>
+</td>
+<td>
+ <img src="Nv2.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>Local people drinking Kashayam</center>
+</td>
+<td>
+ <img src="Nv3.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>Nilavembu Kashayam </center>
+</td>
+</tr>
+
+
+<tr>
+<td>
+ <img src="Ro.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>Rotary Madurai North</center>
+</td>
+<td>
+  <img src="Ro4.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>Getting Help through Rotary club</center>
+</td>
+<td>
+ <img src="Ro3.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>collection of funds by rotary club</center>
+</td>
+<td>
+ <img src="Ro2.jpg" alt="Mountains" width="230" height="200">
+<br>
+<center>Rotract Madurai North</center>
+</td>
+<td>
+ <img src="Soc4.jpg" alt="Mountains" width="230" height="200"> 
+<br>
+<center>Vegetables arranged for donation</center>
+</td>
+</tr>
+</table>
+</center>
+<br>
+<br>
+
+<center>
+<table style="background-color: grey;
+               
+               font-weight: bold;
+	        color: black;
+               text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 20px;">
+<tr>
+<td>
+<h1 align="center">About us:</h1>
+</td>
+<td>
+<h1 align="center">Our works:</h1>
+</td>
+<td>
+<h1 align="center">Location:</h1>
+</td>
+<td>
+<h1 align="center">Map:</h1>
+</td>
+</tr>
+<tr>
+<td align="left">
+Thai Veedu Trust is a shelter<br>
+that is home to the older<br> and needy people who the family<br> has
+abandoned. In this trust,<br> these people are taken care of the<br>
+food, clothing and shelter.<br> Also, they are given proper medical
+facilities.<br> Much recreational and<br> entertainment are also provided. </td>
+<td align="left">
+
+<ul>
+<li><a href="lfe_treeplantation.html">Tree plantation</a><br><br><br>
+ <li>     <a href="lfe_programs.html">Celebration</a><br><br><br>
+ <li>     <a href="lfe_donation.html">Donation</a><br><br><br>
+ <li>    <a href="lfe_fundcollection.html">Fund</a>
+</ul>
+
+    </td>
+<td>
+<center>
+Urban primary Health Center<br> Subramaniapuram
+      near tamil nadu electricity board,<br>
+      Kaja St, Subramaniapuram,<br>
+      Madurai, Tamil Nadu 625011.
+</center>
+</td>
+<td>
+<a href="https://www.google.com/maps/place/Urban+Primary+Health+Center+Subramaniapuram/@9.9087042,78.111309,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x62ee0d6d69a985de!8m2!3d9.9087042!4d78.1134977" target="_blank">
+<img src="lfe_map (3).png" height=200 width=400></a>
+    </td>
+</tr>
+</table>
+</center>
+
+</html>
