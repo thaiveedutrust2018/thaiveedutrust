@@ -2,7 +2,7 @@
 $name = $_POST['name'];
 $email= $_POST['mailid'];
 $message= $_POST['subject'];
-$to = "thaiveedutrust@gmail.com";
+$to = "thaiveedutrust2018@gmail.com";
 $subject = "Mail From Thaiveedutrust";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
 $headers = "From: noreply@thaiveedutrust.org";
