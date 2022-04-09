@@ -1,7 +1,7 @@
 
 <?php
 include('webpage.php');
-$link= mysqli_connect("localhost", "root", "","demo"); // Establishing Connection with Server
+$link= mysqli_connect("https://databases.000webhost.com/?_ga=2.228331229.1909350981.1649506330-363896670.1642482217", "root", "july@2018_Asha","id18728171_thaiveedutrust"); // Establishing Connection with Server
 
 if(isset($_POST['submit']))
 { // Fetching variables of the form which travels in URL
