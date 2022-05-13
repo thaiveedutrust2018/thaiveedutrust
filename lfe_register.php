@@ -1,7 +1,7 @@
 
 <?php
 
-$link= mysqli_connect("https://databases.000webhost.com/?_ga=2.228331229.1909350981.1649506330-363896670.1642482217", "id18728171_root", "july@2018_Asha","id18728171_thaiveedutrust"); // Establishing Connection with Server
+$link= mysqli_connect("localhost", "root", "","demo"); // Establishing Connection with Server
 
 if(isset($_POST['submit']))
 { // Fetching variables of the form which travels in URL
@@ -47,7 +47,7 @@ $query= "insert into info(name,age,fathername,gender,religion,bloodgroup,weight,
 
 if(mysqli_query($link, $query))
 {
-echo "Records added successfully.";
+echo "Form submitted successfully.";
 } else
 {
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
